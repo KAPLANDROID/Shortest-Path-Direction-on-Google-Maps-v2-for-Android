@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:orientation="vertical" >
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="5dp"
+        class="com.google.android.gms.maps.SupportMapFragment" />
+
+        <ToggleButton
+            android:id="@+id/tbMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/map"
+            android:layout_toRightOf="@+id/btnDirection"
+            android:textOff="Walking"
+            android:textOn="Driving" />
+
+        <Button
+            android:id="@+id/btnDirection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/map"
+            android:layout_alignTop="@+id/map"
+            android:layout_marginLeft="62dp"
+            android:text="@string/getdirection" />
+
+</RelativeLayout>
