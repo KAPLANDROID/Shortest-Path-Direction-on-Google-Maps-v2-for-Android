@@ -4,6 +4,8 @@ Shortest-Path-Direction-on-Google-Maps-v2-for-Android
 Shortest Path Direction on Google Maps v2 for Android
 
 <h5>This project helps you to easily integrate shortest path direction to your android application using latest version of Google Maps Android API V2.</h1> <br/> <h3>You can get both walking and driving directions.</h5>
+<br/>
+<h5>Please replace api key in manifest file. Your map wont work correctly if you dont replace api key. </h5>
 
 <img height="500" src="http://img507.imageshack.us/img507/2467/device20130327020718.png"/>
 <img height="500" src="http://img89.imageshack.us/img89/640/device20130327020542.png"/>
